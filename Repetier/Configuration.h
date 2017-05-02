@@ -264,7 +264,7 @@ It also can add a delay to wait for spindle to run on full speed.
 #define max_software_endstop_z true
 #define ENDSTOP_X_BACK_MOVE 5
 #define ENDSTOP_Y_BACK_MOVE 5
-#define ENDSTOP_Z_BACK_MOVE 5
+#define ENDSTOP_Z_BACK_MOVE 1
 #define ENDSTOP_X_RETEST_REDUCTION_FACTOR 3
 #define ENDSTOP_Y_RETEST_REDUCTION_FACTOR 3
 #define ENDSTOP_Z_RETEST_REDUCTION_FACTOR 3
@@ -292,7 +292,7 @@ It also can add a delay to wait for spindle to run on full speed.
 #define Y_MAX_LENGTH 150
 #define Z_MAX_LENGTH 150
 #define X_MIN_POS 0
-#define Y_MIN_POS -10
+#define Y_MIN_POS 0
 #define Z_MIN_POS 0
 #define DISTORTION_CORRECTION 0
 #define DISTORTION_CORRECTION_POINTS 5
@@ -333,9 +333,9 @@ It also can add a delay to wait for spindle to run on full speed.
 #define HOMING_ORDER HOME_ORDER_XYTZ
 #define ZHOME_MIN_TEMPERATURE 0
 #define ZHOME_HEAT_ALL 0
-#define ZHOME_HEAT_HEIGHT 20
-#define ZHOME_X_POS 75
-#define ZHOME_Y_POS 75
+#define ZHOME_HEAT_HEIGHT 2
+#define ZHOME_X_POS 10
+#define ZHOME_Y_POS 10
 #define ENABLE_BACKLASH_COMPENSATION 0
 #define X_BACKLASH 0
 #define Y_BACKLASH 0
